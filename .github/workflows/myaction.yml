@@ -1,0 +1,9 @@
+name: my action junk
+on: push
+jobs:
+  my-job:
+    name: run that
+    runs-on: ubuntu-latest
+    steps:
+    - name: echo this
+      run: eche "f yall ninjas dawg!"
